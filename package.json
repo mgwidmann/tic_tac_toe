@@ -1,0 +1,28 @@
+{
+  "name": "tic_tac_toe",
+  "version": "1.0.0",
+  "description": "Console based tic-tac-toe game.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "mocha --compilers coffee:coffee-script/register -w -r sinon -r should --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mgwidmann/tic_tac_toe.git"
+  },
+  "author": "Matt Widmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgwidmann/tic_tac_toe/issues"
+  },
+  "homepage": "https://github.com/mgwidmann/tic_tac_toe",
+  "dependencies": {
+    "coffee-script": "^1.8.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.5",
+    "should": "^4.1.0",
+    "sinon": "^1.10.3"
+  }
+}
